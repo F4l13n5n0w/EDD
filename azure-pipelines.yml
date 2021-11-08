@@ -30,6 +30,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)\..\s\Seatbelt\bin\Release\Seatbelt.exe'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\..\s\EDD\bin\Release\EDD.exe'
     ArtifactName: 'net_4.7_any'
     publishLocation: 'Container'
